@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title> HACKETHON PRACTICE IN JAVASCRIPT/TYPESCRIPT/NODEJS</title>
+</head>
+<body>  <script> 
+     // ANGULAR & PURESTORAGE 2020 WORKSPACE#1
+    function showFullname(firstName, lastName) {
+        document.write(firstName + " " + lastName);    }
+    showFullname("Catherine","Marvin-11"); 
+    document.write("<br>");
+    showFullname("Marvin-12");         // Prints: Marvin undefined
+    // Calling function #1: Pass argument to function
+
+///===============================================================1 ///
+  function logTheyName(nameX) {
+  console.log(nameX+"|  Second QUESTION");
+  document.write("<br>");
+  document.write(nameX)
+}
+logTheyName('Katherine-Z'+"|"+"CAT-Marvin-4");
+// Calling function #2: Console Vs Document
+
+///===============================================================2 ///
+
+let monze1 = function(num) {   return num * 9;}
+let monze2 = monze1(3);
+console.log(monze2+" : - CalledFunctionWithArug-One");
+
+let chalimb1 = function(num) {  return true;  return false; }
+let chalimb2=chalimb1();
+console.log(chalimb2+" :- FunctionWithTrueOrFalseResults");
+// Calling function #3: Calling an Empty functions/And an argumented function
+
+///===============================================================3 ///
+
+let mav3=function printArray(arr) {
+    var h = [09, 13, 04, 05, 12, 07, 02, 01, 11, 22]; e = [];  o = [];
+for (var i = 0; i < h.length; ++i) {
+        if ((h[i] % 2) == 0) {
+        e.push(h[i]);
+    } else {        o.push(h[i]);    }
+}
+console.log("| Fourth-QUESTION|")
+console.log(e);
+return o;    }
+
+let mav4=mav3();    console.log(mav4)
+// Calling function #4: Filter an Array even vs odd
+
+///=============================================================== 4 ///
+let mav5=function compare(a, b) {
+    if (a > b) {     return -1;    } else if (a < b) {
+        return 1;    }
+    return 0;
+}
+let mav6=mav5(84,97);   console.log(mav6)
+// Calling function #5: Find Greater than or Less than
+
+///===============================================================5 ///
+function getEvenNumbers(num) {
+        if (num % 2 === 0) {  document.writeln(num + "<br />"); }
+    }
+   var arr = [1, 2, 3, 4, 5, 6,8,88,78,80];
+   let noreturn= arr.forEach(getEvenNumbers);
+   console.log(noreturn+" | Doesnot returnAnything")
+// Calling function #6: Filter an Array even vs odd
+
+///=============================================================== 6 ///
+
+function divideNumbersThenStore(dividend, divisor){
+    var quotient = dividend - divisor;
+    var arr = [dividend, divisor, quotient];    return arr;}
+ 
+// Store returned value 
+var all = divideNumbersThenStore(1997, 1984);   
+console.log(all+"| All three arguments including resultant")
+console.log(all)
+
+// Calling function #7: Create a block of numbes then return the block
+
+///=============================================================== 7 ///
+function add() {
+    let sum = 0;
+    for (let i = 0; i < arguments.length; i++) {        sum += arguments[i];    }
+    return sum;
+}
+function simpleArraySum(ar) {
+    ar=[1,2,3,4,5,20]
+const add = (a, b) =>  a + b;const sum = ar.reduce(add)
+return sum;
+}
+console.log("Addition of arrays")
+console.log(add(1, 2)); // 3
+console.log(add(1, 2, 3, 4, 5)); // 15
+console.log(simpleArraySum(1, 2)); // 3
+console.log(simpleArraySum(1, 2, 3, 4, 5)); // 15
+
+// Calling function #8: Create a block of numbes then return the block
+
+///=============================================================== 8 ///
+function displayInformation() {
+      for (obj in library) {     
+          if(library[obj].readingStatus==true)
+              {          
+               console.log("Already read " +"'"+library[obj].title+"'"+ " by "+library[obj].author+".")}
+          else
+{console.log("You still need to read " +"'"+library[obj].title+"'"+ " by " +library[obj].author+".")}                           
+  }  
+} 
+// tail starts here
+var library = [ 
+    {
+        title: 'Bill Gates', author: 'The Road Ahead',    readingStatus: true
+    },
+    {
+        title: 'Steve Jobs', author: 'Walter Isaacson',   readingStatus: true
+    },
+    {
+        title: 'Mockingjay: The Final Book of The Hunger Games',
+        author: 'Suzanne Collins',        readingStatus: false
+    }];
+displayInformation();
+
+// Calling function #8: Create a block of numbes then return the block
+
+///=============================================================== 8 ///
+
+function oddNumbers(int ,int )
+{var e=[];		var l=84,r=97;		
+for (var i=l; i<r+1;i++)		
+    if(([i]%2)==1) {e.push([i]);}
+return e;			}	//3
+console.log("x-QUESTION-NINE-x")
+console.log(oddNumbers(3,7))
+
+// Calling function #9: Create a block of numbes then return the block
+
+///=============================================================== 9 ///
+function findNumbers(arr,k){
+arr=[4,5,6,7]; k=75;
+for(let i=0; i< arr.length; i++)
+if(arr[i]==k){return "YES"}
+
+for(let i=0;i< arr.length; i++)
+{return "NO"}
+}
+console.log("x-QuestionTEN-x")
+console.log(findNumbers(3,7))
+// Calling function # 10: Create a block of numbes then return the block
+
+///=============================================================== 10 ///
+// ANGULAR & PURESTORAGE 2020 WORKSPACE#2
+    </script>
+</body>
+</html>  
