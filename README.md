@@ -9,6 +9,18 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 3. FullCourses
 4. FullMysql
 
+## Dev
+
+```
+  npm install @vue/cli-service -g
+  npm i bootstrap jquery popper.js --save
+  npm i bootstrap-vue --save
+  npm install --save vue vue-router
+  npm i vue-template-compiler --save
+  npm i vue-compiler --save
+  npm install --save vue
+  npm install --save vue
+```
 ## User Interface UX
 
 Here are screens shots from the application accuracy plots and User experiece interfaces
