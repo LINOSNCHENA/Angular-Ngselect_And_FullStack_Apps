@@ -28,10 +28,13 @@ Here are screens shots from the application accuracy plots and User experiece in
 ![M#01](https://github.com/LINOSNCHENA/Angular-ngselect/blob/master/UXViews/page1.png)
 ![M#02](https://github.com/LINOSNCHENA/Angular-ngselect/blob/master/UXViews/page2.png)
 ![M#03](https://github.com/LINOSNCHENA/Angular-ngselect/blob/master/UXViews/page3.png)
-![M#04](https://github.com/LINOSNCHENA/Angular-ngselect/blob/master/UXViews/page2.png)
-![M#05](https://github.com/LINOSNCHENA/Angular-ngselect/blob/master/UXViews/page1.png)
-![M#06](https://github.com/LINOSNCHENA/Angular-ngselect/blob/master/UXViews/page1.png)
-![M#07](https://github.com/LINOSNCHENA/Angular-ngselect/blob/master/UXViews/page2.png)
-![M#08](https://github.com/LINOSNCHENA/Angular-ngselect/blob/master/UXViews/page3.png)
+![M#04](https://github.com/LINOSNCHENA/Angular-ngselect/blob/master/UXViews/page1.png)
 
-## End
+
+
+## Version - Week #2
+```
+    17/09/2021
+```
+
+# END
