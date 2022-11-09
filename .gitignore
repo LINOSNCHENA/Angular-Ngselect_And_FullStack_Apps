@@ -24,3 +24,7 @@ pnpm-debug.log*
 */dist
 */node_modules
 */dist
+
+*dist
+*node_modules
+*dist
