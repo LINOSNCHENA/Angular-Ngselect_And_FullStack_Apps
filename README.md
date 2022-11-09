@@ -32,6 +32,7 @@ conda create --name diploma5
 conda activate diploma5
 conda env list
 python app.py
+npm i --legacy-peer-deps
 
 
 
