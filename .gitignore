@@ -1,4 +1,5 @@
 # local env files
+
 .env.local
 .env.*.local
 
@@ -21,10 +22,8 @@ pnpm-debug.log*
 /node_modules
 /dist
 
-*/dist
-*/node_modules
-*/dist
+*dist/*
+*node_modules/*
+*dist/*
 
-*dist
-*node_modules
-*dist
+## Version-2022
