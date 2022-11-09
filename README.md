@@ -5,7 +5,7 @@ Four application and their updates
 ## Development server
 
 1. Angular_Ngselect
-2. FullMysql
+2. FullMysql real database
 3. FullCourses in Python
 4. FullBook in Python
 
@@ -31,6 +31,7 @@ Four application and their updates
 conda create --name diploma5
 conda activate diploma5
 conda env list
+python app.py
 
 
 
@@ -42,6 +43,7 @@ Here are screens shots from the application accuracy plots and User experiece in
 ![M#02](https://github.com/LINOSNCHENA/Angular-ngselect/blob/master/UXViews/page2.png)
 ![M#03](https://github.com/LINOSNCHENA/Angular-ngselect/blob/master/UXViews/page3.png)
 ![M#04](https://github.com/LINOSNCHENA/Angular-ngselect/blob/master/UXViews/page4.png)
+![M#05](https://github.com/LINOSNCHENA/Angular-ngselect/blob/master/UXViews/page5.png)
 
 
 
@@ -49,6 +51,7 @@ Here are screens shots from the application accuracy plots and User experiece in
 ```
     17/09/2021
     23/03/2022
+    11/11/2022
 ```
 
 # END
