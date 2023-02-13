@@ -16,25 +16,25 @@ Four application and their updates
   npm install --save vue vue-router
   npm i vue-template-compiler --save
   npx npm-check-updates -u
-    
-  conda install -c anaconda flask
-  conda install -c anaconda flask-cors
-  conda install -c conda-forge flask-restful
-
+  npm i --legacy-peer-deps
+  npm install --save --legacy-peer-deps
+  set NODE_OPTIONS=--openssl-legacy-provider
+  "serve": "export NODE_OPTIONS=--openssl-legacy-provider && vue-cli-service serve"
 ```
 
 
 ## Create commands
+```
 conda create --name diploma5
 conda activate diploma5
 conda env list
+
+conda install -c anaconda flask
+conda install -c anaconda flask-cors
+conda install -c conda-forge flask-restful
 python app.py
-npm i --legacy-peer-deps
-npm install --save --legacy-peer-deps
-set NODE_OPTIONS=--openssl-legacy-provider
-"serve": "export NODE_OPTIONS=--openssl-legacy-provider && vue-cli-service serve",
 
-
+```
 
 ## User Interface UX
 
